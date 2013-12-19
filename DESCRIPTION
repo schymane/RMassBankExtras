@@ -1,0 +1,17 @@
+Package: RMassBankExtras
+Type: Package
+Title: RMassBank extra functionality
+Version: 0.1
+Date: 2013-12-19
+Author: Michele Stravs, Eawag
+Maintainer: Michele Stravs <stravsmi@eawag.ch>
+Description: Extra functionality for RMassBank not included in the standard
+    package. Includes functionality to repack spectra (combine multiple
+    RMassBank result files and select spectra to be exported in MassBank
+    format), and to export spectra in table form.
+License: Artistic-2.0
+Depends:
+    RMassBank
+Collate:
+    'Repack.R'
+    'txWorkflow.R'
